@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML5 Oyun Basit</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">C# + HTML5 Mini Oyun Koleksiyonu</p>
+        <h1>Oynanabilir küçük oyunlar</h1>
+        <p class="subtitle">Puzzle, arcade ve hafıza oyunu tek bir menüde. Skorlar basit bir ASP.NET Core API’ye gönderilir.</p>
+      </div>
+      <div class="stats">
+        <div><span>Aktif Oyun</span><strong id="activeGameName">Renk Sırası</strong></div>
+        <div><span>Skor</span><strong id="scoreValue">0</strong></div>
+        <div><span>Can</span><strong id="livesValue">❤❤❤</strong></div>
+        <div><span>Durum</span><strong id="statusValue">Hazır</strong></div>
+        <button id="soundToggle" class="ghost sound-toggle" aria-pressed="true" type="button">Ses: Açık</button>
+        <label class="volume-control" for="volumeRange">
+          <span>Ses Seviyesi</span>
+          <input id="volumeRange" type="range" min="0" max="100" value="70" />
+        </label>
+      </div>
+    </header>
+
+    <section class="menu card">
+      <button class="game-btn active" data-game="sequence">Renk Sırası</button>
+      <button class="game-btn" data-game="collector">Altın Toplayıcı</button>
+      <button class="game-btn" data-game="memory">Hafıza Kartları</button>
+      <button class="game-btn" data-game="platformer">Platform</button>
+      <button class="game-btn" data-game="runner">Endless Runner</button>
+      <button class="game-btn" data-game="balloon">Balon Patlatma</button>
+      <button class="game-btn" data-game="shooter">Space Shooter</button>
+      <button class="game-btn" data-game="quiz">Kelime / Bilgi</button>
+      <button class="game-btn" data-game="clicker">Clicker</button>
+      <button class="game-btn" data-game="defense">Savunma</button>
+      <button id="restartBtn" class="ghost">Yeniden Başlat</button>
+    </section>
+
+    <section id="gamePanel" class="card game-panel"></section>
+
+    <section class="card split">
+      <div>
+        <h2>Son Skorlar</h2>
+        <ul id="scoreList" class="score-list"></ul>
+      </div>
+      <div>
+        <h2>Proje Özeti</h2>
+        <ul class="feature-list">
+          <li>Vanilla JS ile çoklu mini oyun menüsü</li>
+          <li>C# ASP.NET Core API ile skor kaydı</li>
+          <li>Tek dosya içinde source, hızlı demo</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

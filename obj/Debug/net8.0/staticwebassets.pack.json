@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ardakaanboz/HTML5 Oyun (Basit)/wwwroot/app.js",
+      "PackagePath": "staticwebassets/app.js"
+    },
+    {
+      "Id": "/Users/ardakaanboz/HTML5 Oyun (Basit)/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/ardakaanboz/HTML5 Oyun (Basit)/wwwroot/styles.css",
+      "PackagePath": "staticwebassets/styles.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Html5OyunBasit.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Html5OyunBasit.props",
+      "PackagePath": "build\\Html5OyunBasit.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Html5OyunBasit.props",
+      "PackagePath": "buildMultiTargeting\\Html5OyunBasit.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Html5OyunBasit.props",
+      "PackagePath": "buildTransitive\\Html5OyunBasit.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

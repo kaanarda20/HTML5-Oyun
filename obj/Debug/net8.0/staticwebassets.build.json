@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "s58KJGyP8T/5FuKy9uT1CTR6nnTDlfFZf337wRtZ6No=",
+  "Source": "Html5OyunBasit",
+  "BasePath": "_content/Html5OyunBasit",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Html5OyunBasit/wwwroot",
+      "Source": "Html5OyunBasit",
+      "ContentRoot": "/Users/ardakaanboz/HTML5 Oyun (Basit)/wwwroot/",
+      "BasePath": "_content/Html5OyunBasit",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ardakaanboz/HTML5 Oyun (Basit)/wwwroot/app.js",
+      "SourceId": "Html5OyunBasit",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ardakaanboz/HTML5 Oyun (Basit)/wwwroot/",
+      "BasePath": "_content/Html5OyunBasit",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.js"
+    },
+    {
+      "Identity": "/Users/ardakaanboz/HTML5 Oyun (Basit)/wwwroot/index.html",
+      "SourceId": "Html5OyunBasit",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ardakaanboz/HTML5 Oyun (Basit)/wwwroot/",
+      "BasePath": "_content/Html5OyunBasit",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/ardakaanboz/HTML5 Oyun (Basit)/wwwroot/styles.css",
+      "SourceId": "Html5OyunBasit",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ardakaanboz/HTML5 Oyun (Basit)/wwwroot/",
+      "BasePath": "_content/Html5OyunBasit",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/styles.css"
+    }
+  ]
+}
